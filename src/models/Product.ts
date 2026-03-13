@@ -7,5 +7,5 @@ export type Product = {
   price: number,
   active: boolean,
   stock: number,
-  category: Category
+  category?: Category
 }
