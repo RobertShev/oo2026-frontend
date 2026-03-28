@@ -2,7 +2,6 @@ import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/HomePage'
 import AddProduct from './pages/admin/AddProduct'
-import EditProduct from './pages/admin/EditProduct'
 import ManageProducts from './pages/admin/ManageProducts'
 import ManageCategories from './pages/admin/ManageCategories'
 import Cart from './pages/Cart'
@@ -35,7 +34,6 @@ function App() {
         <Route path="/" element={ <HomePage /> } />
         <Route path="/cart" element={ <Cart /> } />
         <Route path="/add-product" element={ <AddProduct /> } />
-        <Route path="/edit-product" element={ <EditProduct /> } />
         <Route path="/manage-products" element={ <ManageProducts /> } />
         <Route path="/manage-categories" element={ <ManageCategories /> } />
       </Routes>
